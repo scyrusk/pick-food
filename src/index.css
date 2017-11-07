@@ -1,0 +1,35 @@
+.error {
+  color: #9f3a38
+}
+
+.query-form {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.fixed-width-240 {
+  display: inline-block;
+}
+
+.fixed-width-120 {
+  width: 120px;
+}
+
+.dashed-underline {
+  border-bottom: 1px dashed #CCC;
+}
+
+.margin-inline-dropdown {
+  margin: 0px 10px;
+}
+
+.margin-top-10 {
+  margin-top: 5px;
+}
+
+.category {
+  background-color: rgba(50, 50, 50, 0.7);
+  color: white;
+  padding: 2px;
+  margin: 20px 0px;
+}
