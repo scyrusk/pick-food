@@ -6,7 +6,7 @@
     "default": 50,
     "max": 50
   },
-  "mongodb": "mongodb://localhost:27017/backend",
+  "mongodb": "MONGOHQ_URL",
   "authentication": {
     "secret": "322e2001f62450b4c26550c684914a60793ab97c3f452cde6efe453e7a3ee5797479a8fef31870090ba2768e17a186c644089582d2cd52a6eef6e022e879d1dae21c099cd1ee70da998e060870c5b5d0b2a07d8faa41c6b8399beab9713233308c6aa6fde8b6657cbbd78cc49fa560b05e074ab77d80959a7f1bf111a2b07b2a2e1777810f7926221080e90c75135479232badf8394ed98f62b74cbadd6d99e68d83e606faf7e9adcd8cd98a65b0db47503b4c5cf1482c6d6b211fd3563d4945f45d623fa8f8bb5019578f2a2c6a9254ef62adf338275806b427b92128fa70baed7c547b31e629f4cd0c0bb5fe68f3a0871dc14b6d9e669b75dba86f545f3dca",
     "strategies": [
@@ -19,7 +19,7 @@
       "header": {
         "type": "access"
       },
-      "audience": "http://pick-food.net",
+      "audience": "localhost:3000",
       "subject": "anonymous",
       "issuer": "feathers",
       "algorithm": "HS256",

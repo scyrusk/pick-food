@@ -7,6 +7,7 @@ import localStorage from 'localstorage-memory';
 
 let instance = false;
 const uri = 'http://localhost:3030/';
+// const uri = 'https://backend-dot-pick-spot.appspot.com/';
 
 export function feathersClient() {
   if (instance) return instance;
